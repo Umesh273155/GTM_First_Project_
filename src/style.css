@@ -1,0 +1,29 @@
+.header{
+    color:white;
+    background-color:midnightblue;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height:60px;
+    
+}
+
+.input{
+    width:80%;
+    height:30px;
+    margin:10px auto;
+    border-radius: 4px;
+    border:1px solid grey;
+}
+.input:hover{
+    background-color:rgb(159, 250, 230);
+    color:rgb(75, 163, 16);
+}
+.submit{
+    width:30%;
+    height:40px;
+    border-radius: 4px;
+    background-color:rgb(23, 218, 23);
+    color:white;
+    border:0;
+    font-size:20px;
+}

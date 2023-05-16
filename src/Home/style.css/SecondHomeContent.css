@@ -1,0 +1,41 @@
+
+.secondHomeContent{
+    background-color:#FFFFFF;;
+    height: 510px;
+    text-align: center;
+    margin-top:15px;
+    margin-bottom: 20px;
+} 
+   
+.image_Box{
+    display:flex;
+    margin-left:7rem;
+    margin-bottom: 0;
+
+}
+.img_{
+width: 21%;
+height: 340px;
+margin-left:1rem;
+box-shadow: 0 5px 5px grey;;
+
+}
+.para{
+ color:grey;
+
+}
+.header-Button-{
+    border:2px solid grey;
+}
+.header-Button-:active{
+    border:2px solid black;
+}
+ 
+@media(max-width:900px){
+    .image_Box{
+        display:inline-block;
+        /* margin-right: 5%;; */
+        margin:auto
+    }
+    
+}

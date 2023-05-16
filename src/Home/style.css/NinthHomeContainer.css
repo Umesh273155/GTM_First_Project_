@@ -1,0 +1,155 @@
+.ninthHomeContainer_Box{
+    width:100%;
+    height:930px;
+     background-color:rgb(209, 211, 212);
+    margin-top: 0px;
+    border-radius: 5px;padding-bottom:30px
+}
+._heading{
+  text-align: center;
+   color:#0F202B;;
+}
+._para{
+    text-align:center;
+    color:#1d1d1d;
+    line-height: 2px;
+    font-size: large;
+}
+.button_Box{
+    align-items: center;
+    text-align:center;
+    
+   margin-top:20px;
+}
+
+._btn{
+    width: 120px;
+    height: 45px;
+    font-weight: 400;
+    margin-left:14px;
+    background-color:white;
+    border-radius: 5px;
+    outline: none;
+     border:2px solid grey;;
+    
+
+}
+
+
+.plan_Main_Box{
+    display:flex;
+    margin-top:20px;
+    margin-left:15%;
+    padding-bottom: 30px;
+   
+}
+.box__{
+    width: 25%;
+    height:400px;  
+    background-color: #FFFF;
+     margin:0 20px; 
+     padding-top:30px;
+     color:black;
+     border:1px solid rgb(223, 218, 218);
+     border-radius: 8px;
+     box-shadow: 0px 4px 25px rgb(143, 143, 143);
+     /* //rgba(0, 0, 0, 0.05); */
+      
+}
+.heading__Text{
+    text-align:center;
+}
+.plan_btn{
+    margin-top:0;
+    border:0;
+    width: 12rem;;
+    height: 28px;
+    margin-left:14%;;
+    line-height: 3px;;
+    border:1px solid rgb(201, 200, 200);
+}
+.box2_{
+    background-color: #1CD15D;
+    color:white;
+}
+.dollor_Box{
+    color:#1CD15D;
+    text-align:center;
+}
+._paragraph_{
+    text-align:center;
+    align-content: center;
+}
+.remark_icon{
+    width:20px;
+    height:10px;
+}
+.plans_btn{
+  margin-left:25%;
+  border:0;
+  background-color: rgb(223, 218, 218);
+  width:10rem;
+  height:40px;
+  border-radius: 5px;
+  border:2px solid grey;
+
+}
+
+.image_box_And_text_box{
+    display:flex;
+}
+
+._img_{
+    width:100%;
+    height:350px;
+    margin-left:3px;
+}
+.text_Box{
+    width:40%;
+    background-color:rgba(15, 32, 43) ;
+    height:350px;
+    text-align:center;
+}
+.style_text{
+    width:20rem;
+    height:65px;
+    margin-top:40px;
+    
+}
+.parag_{
+    line-height: 5px;
+    font-size: 20px;
+}
+.join_btn{
+    color:white;
+    background-color: #1CD15D;
+    width:10rem;
+    margin-top:40px;
+    font-size: 20px;
+    height:40px;
+    border-radius: 8px;;
+}
+.x{
+list-style: 3px;
+}
+.join_btn:active{
+   border:2px solid white;
+
+}
+.plans_btn:active{
+    border:2px solid black;
+}
+._btn:active{
+    border:2px solid black;
+}
+
+
+.backgroundColor{
+  
+   border:3px solid #1CD15D;
+
+}
+.btnbackgroundColor{
+   background-color:#1CD15D;
+   color:white;
+}

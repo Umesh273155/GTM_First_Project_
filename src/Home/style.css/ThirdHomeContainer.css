@@ -1,0 +1,93 @@
+
+
+.thirdHomeContainer{
+    width:81%;
+height: 1010px;
+background-color: #EBE9E9;;
+margin:auto;
+
+ 
+}
+.Text_Box{
+    margin-top:0;
+}
+.Text1{
+    color:black;
+    margin-left:16px;
+
+}
+.para1{
+    
+    color:grey;
+    margin-left:16px;
+}
+.firstImgBox{
+display:flex;
+ margin-left:1rem;
+ margin-top:5px;
+ border-radius: 5px;
+ 
+  
+}
+
+ 
+.Image_And_Para_BOX{
+    width:100%;
+    height:auto;
+    margin-left:5px;
+    margin-top:0px;
+    z-index:1;
+ padding-left:20px;
+    /* background-color: #EBE9E9; */
+   
+}
+
+.img_x{
+    border-radius: 10px;
+     width:90%;
+    margin-top:10px;
+  
+    height: 300px;
+    box-shadow: 0 5px 15px black;;
+    margin-right:1rem;
+    z-index:1;
+   
+} 
+.secondImgBox{
+    display:flex;
+ margin-left:1rem;
+ margin-top:5px;
+ border-radius: 5px;
+ z-index:-1;
+  
+}
+.paragraph_x{
+    color:grey;
+    font-size: 15px;
+    margin-top:0px;
+    margin-left:5px;
+    margin-bottom:0px;
+}
+.secondImgBox{
+      
+    background-image: url("../../video/Rectanglexx.png");
+    
+    
+  
+    padding-bottom: 60px;;
+    background-repeat: no-repeat;
+    background-size:100% 600px;
+    background-position:0 ; 
+    width:100%;
+    height:100%; 
+}
+
+@media(max-width:900px){
+    .thirdHomeContainer{
+        height:auto;
+    }
+    .Image_And_Para_BOX{
+         height:auto;
+         overflow: hidden;
+    }
+}

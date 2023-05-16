@@ -1,0 +1,145 @@
+
+.fifthHomeContainer{
+    width: 100%;
+    height: 770px;
+    color:rgb(39, 37, 37);
+    background-color: #EBE9E9;
+    margin-top:0px;
+  border:1px solid grey; 
+ 
+}
+.main_Box{
+  display:flex;
+}
+.left_side_Box{
+  width: 560px;
+  height:570px;
+  margin-left:5%;
+  padding-top:10px;
+  margin-top:10px;
+   align-items: center;
+   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+}
+
+
+.paraBoxx{
+    margin-top:0;
+    display:flex;
+    margin-left:5%;
+
+    
+}
+.paragraphxx{
+     margin-right:20px;
+     margin-top:5px;
+}
+ .img_box_{
+ margin-left:15px;
+ display:flex;
+ margin-right:15px;
+ 
+}
+.connections{
+  margin-right:20px;
+  margin-left:1%;
+}
+.courses{
+  margin-right:15px;
+}
+.lessonsImg{
+  height:30px;
+  margin-top:10px; 
+
+ 
+}
+.Continue_Course_Btn{
+  width:90%;
+  height:50px;
+  color:white;
+  background-color:#1CD15D;;
+  border-radius: 8px;
+  margin-left:4%;
+  margin-top:20px;
+  border:2px solid rgb(125, 121, 121);
+  font-size: 20px;
+}
+.right_side_Box{
+margin-left:5%;
+ margin-top:10px; 
+width: 560px;
+height:565px;
+
+padding-left:4%;
+padding-top:24px;
+
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+
+
+
+}
+.overflowHoddenBox{
+  
+  overflow: hidden;
+  
+}
+
+.overflowHoddenBox{
+  width: 560px;
+height:526px;
+
+overflow-y: scroll;
+ scroll-behavior:smooth; 
+ 
+ 
+ 
+
+}
+.overflowHoddenBox::-webkit-scrollbar {
+  width: 10px;
+ 
+ 
+}
+.overflowHoddenBox::-webkit-scrollbar-track {
+  background:#ebe9e9;
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 10px;
+  height:50px;
+}
+
+.overflowHoddenBox::-webkit-scrollbar-thumb {
+  background:#1CD15D;
+  height:10px;
+  border-radius: 10px;
+}
+
+.inner_BOX{
+  
+  display:flex;
+  
+}
+.scrollImageBar{
+  width:75px;
+  height:75px;
+  margin-bottom:8px;
+  margin-right:60px;
+ 
+}
+.Continue_Course_Btn:active{
+   border:2px solid black;
+}
+
+@media(max-width:900px){
+  .fifthHomeContainer{
+    height:auto;
+    margin:auto;
+
+   }
+ .main_Box{
+  display:inline-block;
+  height:auto;
+  margin-left:auto;
+
+ }
+ 
+  
+}

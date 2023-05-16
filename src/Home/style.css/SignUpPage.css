@@ -1,0 +1,110 @@
+ body{
+   
+    background-color: hsl(218, 95%, 8%);;
+    color:rgb(102, 101, 101);
+ }
+
+.signUpPage{
+    width:480px;
+    height:auto;
+    margin: 30px auto;
+    background-color:#e5e5e8  ;
+    padding-left:25px;
+    padding-right:25px;
+    /* box-shadow: -1px -2px 17px rgba(239, 10, 10, 0.1); */
+    border-radius: 10px;
+    padding-bottom:20px;
+
+}
+.genderMainBox{
+    display:flex;
+}
+.gender_Box{
+
+   color:rgb(152, 148, 148) ;
+   width:100px;
+   margin-right:14px;
+   border:1px solid grey;
+  margin-left:30px;
+  padding:5px;
+  border-radius:10px;
+  background-color: white;
+  margin-bottom:25px;
+}
+.gender_Box:hover{
+    border:1px solid green;
+    
+}
+.input_Box_Name{
+    /* width:180px; */
+    width:205px;
+     margin-top:15px; 
+    color:black;
+  
+  /* margin-right:15px; */
+  font-size:15px;
+  margin-bottom:20px; 
+  padding:10px;
+  border:1px solid grey;
+  outline:none;
+  border-radius:10px;
+}
+
+.input_Box_firstName:hover{
+    border:1px solid green;
+}
+.input_Box_lastName:hover{
+    border:1px solid green;
+}
+.input_Box_email{
+     width:100%;
+    outline:none;
+    padding:10px;
+    font-size:15px;
+    border-radius:10px;
+    border:1px solid grey;
+   /* margin-left:30px; */
+   margin-bottom:20px;
+}
+.input_Box_email:hover{
+    border:1px solid green;
+}
+.Sign_Up_button{
+    color:white;
+    background-color:#1CD15D ;
+    width:95%;
+    padding:10px;
+    font-size: 17px;
+      margin-bottom:0px ;
+    border-radius:10px;
+     border:2px solid rgb(93, 247, 93);;
+    /* border:none; */
+    
+}
+.alreadyAccount{
+    margin-top:0px;
+     display:flex;
+     justify-content: center;
+     font-size:20px;
+}
+.createNewAccHeader{
+  color:rgb(34, 32, 32);
+  font-size:35px;
+  text-align:center;
+
+}
+.Sign_Up_button:active{
+  border:2px solid grey;
+} 
+.sign_up_btn{
+    display:flex;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    margin-top:30px;
+}
+.input_main_box_{
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+}

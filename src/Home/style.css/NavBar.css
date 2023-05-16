@@ -1,0 +1,30 @@
+.navBar_{
+    color:#FFFF;
+    width: 100%;
+    height: 56px;
+    background-color: #06131C;
+}
+.navList{
+    display:flex;
+   margin:auto 3rem;
+   list-style-type: none;
+   
+}
+.list{
+   margin-top: 15px;
+    color:#FFFF;
+    margin-right:3rem;
+   
+    
+}
+.vector_{
+    margin-left:5px;
+}
+@media(max-width:900px){
+    .navBar_{
+        height:auto;
+        margin-bottom: 0px;
+        background-color:#06131C;
+    }
+
+}
